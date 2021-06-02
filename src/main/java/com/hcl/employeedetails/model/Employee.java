@@ -23,13 +23,13 @@ public class Employee {
 	@Id
 	@Column(name="id")
 	private int id;
-	@Column(name="first_name")
+	@Column(name="a_first_name")
 	private String a_first_name;
-	@Column(name="last_name")
+	@Column(name="b_last_name")
 	private String b_last_name;
-	@Column(name="email")
+	@Column(name="c_email")
 	private String c_email;
-	@Column(name="department")
+	@Column(name="d_department")
 	private String d_department;
 
 }
